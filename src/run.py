@@ -4,7 +4,7 @@ from pathlib import Path
 from ytchannelmatcher.YouTubeSearcher import  YouTubeSearcher
 
 CSV_PATH   = Path("../result/combined_channels.csv")
-OUTPUT_JSON = Path("channels_300.json")
+OUTPUT_JSON = Path("../result/channels_300.json")
 MAX_ROWS   = 300        # 只取前 300 行
 
 def build_channel_url_snippet(snippet):
